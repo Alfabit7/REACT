@@ -1,0 +1,22 @@
+.comments{
+    padding: 50px 50px;
+}
+.comment{
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment_btn, .addComment{
+    height: 40px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+
+.comment_btn{
+    color: rgb(248, 248, 235);
+    background-color: brown;   margin-left: 10px; 
+}
+

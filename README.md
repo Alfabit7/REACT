@@ -49,6 +49,8 @@
 Yfxfkj hf,jns
 # Начало 
 * [Getting started](https://create-react-app.dev/docs/getting-started/)
+
+* [reactrouter](https://reactrouter.com/en/main/routers/picking-a-router)
 * npx create-react-app my-app
 * cd my-app
 * npm start
