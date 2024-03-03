@@ -1,0 +1,13 @@
+
+.container{
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 1200px;
+
+}
+.temperature{
+    padding-bottom: 100px;
+    display: flex;
+    gap: 20px  ;
+
+}

@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CommentsList from './components_hw_2/CommentsList';
+import TemperatureConverter from './componenets_hw_3/TemperatureConverter';
+import TodoList from './componenets_hw_3/TodoList';
 // import Message from './components_hw_1/Message';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +15,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <CommentsList />
+    <TemperatureConverter />
+    <TodoList />
   </React.StrictMode>
 );
 
@@ -22,6 +25,6 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-
+{/* <CommentsList /> */ }
 // <Message text="REACT" />
 // {/* <CommentsList comments={comments} deleteComment={deleteComment} /> */}

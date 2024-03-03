@@ -1,0 +1,19 @@
+.title{
+    padding-left: 100px;
+}
+.todoList{
+    padding-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px   ;
+}
+.btnAddTask{
+
+}
+.list{
+    width: 600px;
+    padding-left: 100px;
+}
+.areaTask{
+    width: 90%;
+}
