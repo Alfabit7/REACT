@@ -13,6 +13,9 @@ import AboutPage from './components_hw_4/AboutPage';
 import HomePage from './components_hw_4/HomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import store from './components_hw_5/store';
+import SwitchTheme from './components_hw_5/SwitchTheme'
+import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,6 +25,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
+
+    <Provider store={store}>
+      <SwitchTheme />
+    </Provider>
     <TemperatureConverter />
     <ToDoList />
     <h1 className='routing'>Routing</h1>
